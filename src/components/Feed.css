@@ -1,0 +1,23 @@
+.Feed {
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  float: left;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px grey;
+  font-style: italic;
+  text-align: center;
+}
+.Feed img {
+  width: 200px;
+  height: 100px;
+}
+.Feed:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+.Feed a:hover {
+  font-size: 20px;
+}
